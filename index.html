@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-screen w-screen flex justify-center items-center font-bold" style="background-image: url('bg.jpeg.jfif');">
+    <div class="bg-gradient backdrop-blur-md w-[500px] h-auto text-center space-y-5 p-20 rounded-lg outline outline-orange-400">
+        <h3 class="text-4xl text-white">Hello!</h3>
+        <p class="text-2xl text-yellow-100">Sign into your account</p>
+        <input type="text" placeholder="Username" class="placeholder-white p-5 rounded-lg w-full bg-transparent outline outline-orange-500 block text-teal-200" >
+        <input type="password" placeholder="Password" class=" placeholder-white p-5 rounded-lg w-full bg-transparent outline-orange-500 outline">
+        
+        <div class="flex-row ">
+            <input type="checkbox" name="" id="Remember-Me">
+            <label for="checkbox" class="text-white font-semibold">Remember Me</label>
+            <a href="#" class="text-red-600 font-semibold hover:underline">Forget Password?</a>
+        </div>
+
+        <button class="uppercase text-2xl bg-black px-5 py-2 text-white rounded-md outline outline-orange-400 hover:text-orange-400 hover:bg-white ">Sign In</button>
+        <div class="flex-row flex items-center text-center gap-x-2 justify-center text-white font-semibold">
+            <p>Don't have an account?</p>
+            <a href="#" class="hover:underline">Sign Up</a>
+    
+        </div>     
+    </div>
+</body>
+</html>
